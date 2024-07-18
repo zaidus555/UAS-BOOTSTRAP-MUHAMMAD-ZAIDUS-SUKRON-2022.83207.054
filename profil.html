@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil SMK ITM</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+</head>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+    }
+    .navbar-brand {
+        font-weight: bold;
+    }
+</style>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">SMK ITM</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Beranda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="profil.html">Profil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="galeri.html">Galeri</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="kontak.html">Kontak</a>
+                    </li>
+                    <li class="nav-item">
+                        <button id="ppdbButton" class="btn bg-warning me-2" type="button">PPDB</button>
+                    </li>
+                    
+                    <script>
+                        document.getElementById("ppdbButton").addEventListener("click", function() {
+                            window.location.href = "ppdb.html"; 
+                        });
+                    </script>
+                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container my-5">
+        <h2 class="text-center mb-4">Profil SMK ITM</h2>
+        <div class="accordion" id="schoolProfileAccordion">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingSejarah">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSejarah" aria-expanded="true" aria-controls="collapseSejarah">
+                        Sejarah
+                    </button>
+                </h2>
+                <div id="collapseSejarah" class="accordion-collapse collapse show" aria-labelledby="headingSejarah" data-bs-parent="#schoolProfileAccordion">
+                    <div class="accordion-body">
+                        <p>SMK ITM didirikan pada tahun 1945 dengan tujuan mulia untuk menyediakan pendidikan vokasi berkualitas tinggi yang mempersiapkan generasi muda menghadapi tantangan masa depan. Berawal dari sebuah sekolah kecil, SMK ITM telah berkembang menjadi salah satu institusi pendidikan terkemuka di Indonesia.
+                            Selama lebih dari tujuh dekade, kami telah berkomitmen untuk membekali siswa dengan pengetahuan dan keterampilan yang relevan dan aplikatif. Dengan dukungan fasilitas modern dan kurikulum yang terus diperbarui, SMK ITM terus berinovasi untuk memenuhi kebutuhan industri dan dunia kerja yang dinamis.
+                            Seiring perjalanan waktu, kami telah melahirkan ribuan alumni yang sukses dan berprestasi di berbagai bidang, baik di tingkat nasional maupun internasional. SMK ITM bangga menjadi bagian dari perkembangan pendidikan di Indonesia dan terus berupaya menciptakan lingkungan belajar yang inspiratif dan inovatif bagi para siswa.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingVisi">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseVisi" aria-expanded="false" aria-controls="collapseVisi">
+                        Visi
+                    </button>
+                </h2>
+                <div id="collapseVisi" class="accordion-collapse collapse" aria-labelledby="headingVisi" data-bs-parent="#schoolProfileAccordion">
+                    <div class="accordion-body">
+                        <p>Menjadi sekolah unggulan dalam pendidikan vokasi dengan lulusan yang siap bersaing di dunia industri.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingMisi">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseMisi" aria-expanded="false" aria-controls="collapseMisi">
+                        Misi
+                    </button>
+                </h2>
+                <div id="collapseMisi" class="accordion-collapse collapse" aria-labelledby="headingMisi" data-bs-parent="#schoolProfileAccordion">
+                    <div class="accordion-body">
+                        <ul>
+                            <li>Menyediakan pendidikan berkualitas dengan kurikulum yang sesuai dengan kebutuhan industri.</li>
+                            <li>Membekali siswa dengan keterampilan praktis dan pengetahuan teoretis.</li>
+                            <li>Membangun karakter siswa yang berintegritas dan profesional.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container my-5">
+            <h3 class="text-center mb-4">Profil Guru</h3>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="alwi.jpeg" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Drs.Alwi Syihab,M.Pd</h5>
+                            <p class="card-text">Kepala sekolah SMK ITM.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="mir.jpg" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Drs.Amir Sholeh,M.Pd</h5>
+                            <p class="card-text">Komite SMK ITM</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="devan.jpeg" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Devan Surya,S.Pd,M.Si</h5>
+                            <p class="card-text">Waka Kurikulum SMK ITM.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="tul.jpg" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Rohmatuloh,S.H.</h5>
+                            <p class="card-text">Waka Kesiswaan SMK ITM.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="mad.jpeg" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Ahmad Royyan,S.Kom.</h5>
+                            <p class="card-text">Kaprog RPL SMK ITM.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="zaed.jpeg" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Ustad Zaidus,S.Pdi.</h5>
+                            <p class="card-text">Guru Agama Nusantara SMK ITM.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

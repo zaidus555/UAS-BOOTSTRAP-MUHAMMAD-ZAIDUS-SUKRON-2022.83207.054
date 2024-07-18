@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Keunggulan Kami - SMK ITM</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .card-img-top {
+            height: 200px;
+            object-fit: cover;
+        }
+        body {
+        font-family: Arial, sans-serif;
+        }
+        .navbar-brand {
+        font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">SMK ITM</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link"  href="index.html">Beranda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="profil.html">Profil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="galeri.html">Galeri</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="kontak.html">Kontak</a>
+                    </li>
+                    <li class="nav-item">
+                        <button id="ppdbButton" class="btn bg-warning me-2" type="button">PPDB</button>
+                    </li>
+                    <script>
+                        document.getElementById("ppdbButton").addEventListener("click", function() {
+                            window.location.href = "ppdb.html"; 
+                        });
+                    </script>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container my-5">
+        <h2 class="text-center mb-4">Program unggulan SMK ITM</h2>
+
+        <div class="row">
+
+            <div class="col-lg-4 mb-4">
+                <div class="card">
+                    <img src="u1.jpeg" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Teknik Informatika</h5>
+                        <p class="card-text">Program ini dirancang untuk menghasilkan ahli IT yang handal dengan keterampilan dalam pemrograman, pengembangan web, dan jaringan komputer. Siswa akan mempelajari teknologi terbaru dan berpartisipasi dalam proyek praktis yang mempersiapkan mereka untuk berkarier di industri teknologi.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 mb-4">
+                <div class="card">
+                    <img src="u2.jpeg" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Teknik Otomotif</h5>
+                        <p class="card-text">Program Teknik Otomotif di SMK ITM mengajarkan siswa tentang perawatan dan perbaikan kendaraan bermotor, termasuk mobil dan sepeda motor. Dengan laboratorium yang lengkap dan instruktur berpengalaman, siswa mendapatkan pengalaman langsung dalam mengatasi berbagai masalah teknis di dunia otomotif.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 mb-4">
+                <div class="card">
+                    <img src="u3.jpeg" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Pendidikan Agama Islam</h5>
+                        <p class="card-text">Program ini berfokus pada pengajaran nilai-nilai Islam, ilmu fiqh, tafsir Al-Qur'an, dan bahasa Arab. Siswa akan mendapatkan pengetahuan mendalam tentang ajaran Islam dan keterampilan untuk menjadi pemimpin yang berintegritas di komunitas mereka. Program ini juga mencakup kegiatan praktis seperti dakwah dan pengelolaan kegiatan keagamaan.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
